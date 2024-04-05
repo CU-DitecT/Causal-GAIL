@@ -5,6 +5,8 @@ Code for Causal GAIL
 
 tl;dr:
 - in \cite{ruan2022learning}, to block all the $\pi$-backdoor paths, we need to utilize 2-step information, i.e., $\{S_{t}, A_{t-1}, S_{t-1} \}$.
+- Causal GAIL: $\pi(a_{t} | s_{t}, a_{t-1}, s_{t-1})$
+- Original GAIL: $\pi(a_{t} | s_{t})$
 
 
 
