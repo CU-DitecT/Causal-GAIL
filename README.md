@@ -4,10 +4,10 @@ Code for Causal GAIL
 ## Major Difference between GAIL and Causal-GAIL
 
 tl;dr:
-- in \cite{ruan2022learning}, to block all the $\pi$-backdoor paths, we need to utilize 2-step information, i.e., $\\{S_{t}, A_{t-1}, S_{t-1} \\}$.
+- In \cite{ruan2022learning}, to block all the $\pi$-backdoor paths in the proposed causal template for human driving behaviors, we need to utilize 2-step information, i.e., $\\{S_{t}, A_{t-1}, S_{t-1} \\}$.
   - Causal GAIL: $\pi(a_{t} | s_{t}, a_{t-1}, s_{t-1})$
   - Original GAIL: $\pi(a_{t} | s_{t})$
-
+- In \cite{ruan2023causal}, we need to utilize the minimal $\pi$-backdoor criterion.
 
 
 
