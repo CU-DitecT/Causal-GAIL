@@ -36,6 +36,10 @@ def normalize(x, clip_std_multiple=np.inf):
     x = x / std
     return x, mean, std
 
+"""
+Some code is borrowed from:
+1. https://github.com/sisl/ngsim_env
+"""
 
 def build_critic(args, data, env, writer=None):
 
