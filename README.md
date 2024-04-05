@@ -1,6 +1,14 @@
 # Causal-GAIL
 Code for Causal GAIL
 
+## Major Difference between GAIL and Causal-GAIL
+
+tl;dr:
+- in \cite{ruan2022learning}, to block all the $\pi$-backdoor paths, we need to utilize 2-step information, i.e., $\{S_{t}, A_{t-1}, S_{t-1} \}$.
+
+
+
+
 ## References
 
 If you found this library useful in your research, please consider citing our papers:
